@@ -8,7 +8,7 @@ import { NextResponse } from "next/server";
 import OpenAI from "openai";
 
 const openai = new OpenAI({
-  organization: "org-Mw3S7KWPFGg8VWQ9KpZ7Dkph",
+  organization: "org-c1jJxaDRUaXQ449KdP4KY0C1",
 });
 
 export async function POST(req: Request) {

@@ -9,7 +9,7 @@ import OpenAI from "openai";
 import { ChatCompletionMessageParam } from "openai/resources/index.mjs";
 
 const openai = new OpenAI({
-  organization: "org-Mw3S7KWPFGg8VWQ9KpZ7Dkph",
+  organization: "org-c1jJxaDRUaXQ449KdP4KY0C1",
 });
 
 const instructionMessage: ChatCompletionMessageParam = {
