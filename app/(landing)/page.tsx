@@ -1,17 +1,13 @@
-import { Button } from "@/components/ui/button";
-import { SignInButton, SignUpButton } from "@clerk/nextjs";
-import React from "react";
+import { LandingNavbar } from "@/components/landing-navbar";
+import { LandingHero } from "@/components/landing-hero";
+import { LandingContent } from "@/components/landing-content";
 
 const LandingPage = () => {
   return (
-    <div>
-      LandingPage (unprotected)
-      <SignUpButton>
-        <Button variant="ghost">SignUp</Button>
-      </SignUpButton>
-      <SignInButton>
-        <Button variant="destructive">SignIn</Button>
-      </SignInButton>
+    <div className="h-full ">
+      <LandingNavbar />
+      <LandingHero />
+      <LandingContent />
     </div>
   );
 };
